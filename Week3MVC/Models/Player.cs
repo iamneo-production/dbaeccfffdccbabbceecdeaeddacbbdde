@@ -15,7 +15,7 @@ namespace Week3MVC.Models
         public string Category { get; set; }
 
         [Required(ErrorMessage = "Bidding amount is required.")]
-        [Range(0.01, double.MaxValue, ErrorMessage = "Bidding amount must be greater than 0.")]
+        [Range(0.00, double.MaxValue, ErrorMessage = "Bidding amount must be greater than 0.")]
         public decimal BiddingAmount { get; set; }
     }
 }
