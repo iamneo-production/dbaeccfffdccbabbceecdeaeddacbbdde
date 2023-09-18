@@ -189,7 +189,7 @@ namespace Week3MVC.Controllers
 
         // GET: Player/Create
         [HttpGet]
-        [Route("create")]
+        [Route("creat2e")]
         public IActionResult Create()
         {
             return View();
@@ -197,7 +197,7 @@ namespace Week3MVC.Controllers
 
         // POST: Player/Create
         [HttpPost]
-        [Route("create")]
+        [Route("creat2e")]
 
         [ValidateAntiForgeryToken]
         public IActionResult Create(Player player)
